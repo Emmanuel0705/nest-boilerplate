@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Inline CSS */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+      background-color: #f1f1f1;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #ffffff;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .otp {
+      font-weight: bold;
+      background-color: #f8f8f8;
+      padding: 10px;
+      border-radius: 4px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <h2>Support Team</h2>
+    </div>
+    <p>Dear {{user}},</p>
+    <p>Thank you for reaching out to our support team. We have received your message and will get back to you as soon as possible.</p>
+    <p>We appreciate your patience and look forward to assisting you further</p>
+    <p>You can can keep track of your request with this ticket ID: {{ticketId}}</p>
+    <p>Best regards, <br>Unideals</p>
+  </div>
+</body>
+
+</html>
